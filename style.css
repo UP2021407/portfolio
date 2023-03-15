@@ -1,3 +1,95 @@
-ul li{
-style: "list-style-type: none;"
-};
+ul li {
+    list-style-type: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.neumorphism-1{
+    height: auto;
+    width: auto;
+    border-radius: 50px;
+    background: #20222a;
+    box-shadow: inset 20px 20px 60px #0d0e11,
+                inset -20px -20px 60px #333643;
+}
+
+.neumorphism-1 h1{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    padding:1em;
+    margin:0;
+    font-size: 40px;
+    color: rgb(235, 255, 255);
+    text-shadow: rgba(71, 231, 255, 0.298) 2px 2px 2px;
+}
+
+body {
+    text-align: center;
+    padding:1em;
+	margin:0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    color: #E6E6E6;
+}
+
+.button-array img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+}
+
+.neumorphism-2{
+    height: auto;
+    width: auto;
+    border-radius: 50px;
+    background: #20222a;
+    box-shadow: inset 20px 20px 60px #0d0e11,
+                inset -20px -20px 60px #333643;
+}
+
+.neumorphism-2 #bio-para {
+    font-size: 18px;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 2em;
+    word-wrap: break-word;
+}
+
+html {
+    --s: 50px;
+    --c: #191b22;
+    --_s: calc(2*var(--s)) calc(2*var(--s));
+    --_g: 35.36% 35.36% at;
+    --_c: #0000 66%,#20222a 68% 70%,#0000 72%;
+    background: 
+      radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s), 
+      radial-gradient(var(--_g) 0 75%,var(--_c)) var(--s) var(--s)/var(--_s), 
+      radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s), 
+      radial-gradient(var(--_g) 0 75%,var(--_c)) 0 0/var(--_s), 
+      repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
+      radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
+    background-attachment: fixed;
+  }
+
+footer {
+    margin: 0;
+	position:fixed;
+    width: 100%;
+	bottom:0;
+    left: 0;
+	background:#111318;
+}
+
+footer p {
+		padding:1.1em;
+		margin:0;
+}
