@@ -19,7 +19,7 @@ html {
   /* GRID */
 
   .grid {
-    height: 80vw;
+    height: 70vw;
     width: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -30,10 +30,8 @@ html {
   /* CARDS */
 
   .card {
-    min-width: 350px;
-    min-height: 450px;
-    width: 75%;
-    height: 75%;
+    max-width: 450px;
+    max-height: 550px;
     color: ivory;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #212121;
@@ -49,14 +47,11 @@ html {
     transform: scale(1.2);
    }
 
-   .card a img {
-    min-width: none;
-    max-width: 100%;
-    display: block;
-    margin: auto;
-    object-fit: contain;
-}
-
+   .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
 .card h1{
     text-align: center;
