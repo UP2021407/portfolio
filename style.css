@@ -40,10 +40,11 @@ html {
    }
    
    .card:hover {
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    transform: scale(1.2);
-   }
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    transform: scale(1.13);
+    font-size: 1.2em;
+  }
 
    .card img {
     width: 100%;
