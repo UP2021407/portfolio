@@ -14,6 +14,10 @@ html {
     background-attachment: fixed;
   }
 
+body{
+  margin: 0;
+}
+
   /* GRID */
 
   .grid {
@@ -23,6 +27,7 @@ html {
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 50px;
     place-items: center;
+    margin-right: 40px;
   }
 
   /* CARDS */
@@ -63,7 +68,9 @@ html {
   header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   
 
