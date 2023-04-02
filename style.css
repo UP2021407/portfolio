@@ -44,6 +44,25 @@ body{
 
   /* GRID */
 
+  #Directory{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: xx-large;
+    padding-left: 33%;
+    padding-right: 33%;
+  }
+
+  #Directory .LinkText{
+    font-family: 'Lexend', sans-serif;
+    color:ivory;
+    text-decoration: none;
+  }
+
+  #Directory #SelectedPage{
+    text-decoration: underline;
+  }
+
   .grid {
     height: 70vw;
     width: auto;
@@ -140,8 +159,6 @@ body{
   /* FOOTER */
 
   footer{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: relative;
     bottom: 0;
-    color: ivory
   }
