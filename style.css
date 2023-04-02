@@ -1,3 +1,5 @@
+/* Default background */
+
 html {
     --s: 50px;
     --c: #191b22;
@@ -17,6 +19,28 @@ html {
 body{
   margin: 0;
 }
+
+/* BIO PAGE */
+
+#Bio{
+  font-family: 'Lexend', sans-serif;
+  color:ivory;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+#Bio img{
+  height: 25px;
+}
+
+#Bio .Stats{
+  height: auto;
+}
+
+#BioFooter{
+  height: 50px;
+}
+/* Portfolio PAGE */
 
   /* GRID */
 
